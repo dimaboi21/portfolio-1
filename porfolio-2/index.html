@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Портфоліо</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a class="logo" href="#">
+            <img src="./img/icons/logo.png" alt="logo" class="nav__img" />
+          </a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Про мене</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skils" class="nav__link">Навички</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Портфоліо</a>
+            </li>
+            <li class="nav__item">
+              <a href="#con." class="nav__link">Контакти</a>
+            </li>
+          </ul>
+          <button class="menu-btn">
+            <span class="menu__item">menu</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="home" style="background-image: url(./img/bg__img.png)">
+        <div class="container">
+          <div class="home__inner">
+            <h1 class="home__title">Привіт, я Магаляс Дмитро</h1>
+            <h2 class="home__subtitle">frontend-розробник</h2>
+          </div>
+          <a href="#work" class="home__link">Дивитись роботи</a>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <h1 class="title">Про мене</h1>
+          <p class="about__text">
+            Вітаю всіх на своєму сайті! Мене звуть Дмитро, я з Вінниці. Займаюся
+            фронтенд-розробкою понад рік. До розробки займався плаваням. Але
+            після початку війни було дуже багато серен і тому я перестав туди
+            ходити і мама знайшла мені заміну
+          </p>
+          <p class="about__text">
+            З того часу пройшов вогонь, воду та мідні труби. Навчання давалося
+            складно. Щоденна робота над навичками та старанність, з якою я
+            підходив до навчання, вже через кілька місяців принесли плоди – я
+            взяв перше замовлення на фрілансі. З відгуками клієнтів та
+            прикладами робіт можна ознайомитись нижче.
+          </p>
+        </div>
+      </section>
+
+      <section class="skils" id="skils">
+        <div class="container">
+          <h2 class="title">Навички</h2>
+          <div class="skils__inner-all">
+            <div class="inner__left">
+              <img src="./img/portrait 2.jpg" alt="myfoto" class="skils__img" />
+            </div>
+            <ul class="skils__list">
+              <li class="skils__item">
+                <p class="skils__in">HTML</p>
+                <div class="skils__graphic">
+                  <span class="skils__rating" style="width: 50%"></span>
+                </div>
+              </li>
+              <li class="skils__item">
+                <p class="skils__in">CSS</p>
+                <div class="skils__graphic">
+                  <span class="skils__rating" style="width: 40%"></span>
+                </div>
+              </li>
+              <li class="skils__item">
+                <p class="skils__in">JS</p>
+                <div class="skils__graphic">
+                  <span class="skils__rating" style="width: 3%"></span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container">
+          <h2 class="title">Послуги</h2>
+          <ul class="services__list">
+            <li class="services__item">
+              <img class="services__img" src="./img/icons/mark.svg" alt="#" />
+              <h3 class="services__title">Вёрстка проектов</h3>
+              <p class="services__descriotion">
+                Сделаю качественную вёрстку вашего проекта по предоставленному
+                макету или примеру
+              </p>
+            </li>
+            <li class="services__item">
+              <img
+                class="services__img"
+                src="./img/icons/chat__icon.svg"
+                alt="#"
+              />
+              <h3 class="services__title">Поддержка сайта</h3>
+              <p class="services__descriotion">
+                Гарантирую поддержку вашего сайта на протяжениии 30 дней после
+                сдача проекта
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="project" id="work">
+        <div class="container">
+          <p class="title">Мої проекти</p>
+          <ul class="project__list">
+            <li class="project__item">
+              <a
+                class="project__link"
+                href="https://dimaboi21.github.io/JS-game/"
+              >
+                <img
+                  class="project__img"
+                  src="./img/project1.png"
+                  alt="project1"
+              /></a>
+            </li>
+            <li class="project__item">
+              <a
+                class="project__link"
+                target="_blank"
+                href="https://dimaboi21.github.io/1MMS_2/"
+              >
+                <img
+                  class="project__img"
+                  src="./img/project2.png"
+                  alt="project2"
+              /></a>
+            </li>
+            <li class="project__item">
+              <a class="project__link" target="_blank" href="#">
+                <img
+                  class="project__img"
+                  src="./img/project3.jpg"
+                  alt="project3"
+              /></a>
+            </li>
+            <li class="project__item">
+              <a class="project__link" target="_blank" href="#">
+                <img
+                  class="project__img"
+                  src="./img/project4.jpg"
+                  alt="project4"
+              /></a>
+            </li>
+            <li class="project__item">
+              <a class="project__link" target="_blank" href="#">
+                <img
+                  class="project__img"
+                  src="./img/project5.jpg"
+                  alt="project5"
+              /></a>
+            </li>
+            <li class="project__item">
+              <a class="project__link" target="_blank" href="#">
+                <img
+                  class="project__img"
+                  src="./img/project6.jpg"
+                  alt="project6"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="info">
+        <div class="container">
+          <ul class="info__list">
+            <li class="info__item info--work">
+              <p class="info__text">Виконаніх робіт</p>
+              <span class="info__count">36</span>
+            </li>
+            <li class="info__item info--clients">
+              <p class="info__text">Задоволених кліентів</p>
+              <span class="info__count">29</span>
+            </li>
+            <li class="info__item info--coffee">
+              <p class="info__text">Випито чашек чаю</p>
+              <span class="info__count">677</span>
+            </li>
+            <li class="info__item info--review">
+              <p class="info__text">Усього відгуків</p>
+              <span class="info__count">34 </span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact" id="con.">
+        <div class="container">
+          <p class="title">Контакты</p>
+          <div class="contact__inner">
+            <div class="contact__social">
+              <p class="contact__text">
+                Связаться со мной можно, воспользовавшись контактной формой или
+                напрямую по номеру телефона, email, в соцсетях:
+              </p>
+
+              <a class="contact__number" href="tel:+380501111111"
+                >+38 (050) 111 11 11</a
+              >
+              <a class="contact__mail" href="mailto:frontend-monster@email.com"
+                >frontend-monster@email.com</a
+              >
+              <ul class="contact__list">
+                <li class="contact__item">
+                  <a class="contact__link contact__link--instagram" href="#"
+                    >instagram</a
+                  >
+                </li>
+                <li class="contact__item">
+                  <a class="contact__link contact__link--facebook" href="#"
+                    >facebook</a
+                  >
+                </li>
+                <li class="contact__item">
+                  <a class="contact__link contact__link--telegram" href="#"
+                    >telegram</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <form class="contact__form">
+              <div class="contact__form-inner">
+                <label class="contact__lable">
+                  Ваше имя
+
+                  <input
+                    name="name"
+                    class="contact__input"
+                    type="text"
+                    placeholder="Дмитро"
+                  />
+                </label>
+                <label class="contact__lable">
+                  Номер телефона
+                  <input
+                    name="phone"
+                    class="contact__input"
+                    type="tel"
+                    placeholder="+38 (050) 111 11 11"
+                  />
+                </label>
+              </div>
+              <label class="contact__area-label">
+                Ваше сообщение
+                <textarea
+                  class="contact__textarea"
+                  name="message"
+                  placeholder="Текст вашего сообщения"
+                ></textarea>
+              </label>
+              <button class="contact__button">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <img class="footer__img" src="./img/icons/logo.png" alt="#" />
+      </footer>
+    </main>
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>
